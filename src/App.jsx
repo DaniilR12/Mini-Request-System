@@ -11,9 +11,7 @@ function App() {
   return (
     <>
       <RoleSwitcher />
-
       {role === "User" ? (<UserView />) : (<ManagerView />)}
-
     </>)
 }
 
