@@ -1,0 +1,66 @@
+.containerCard {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  padding: 20px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  max-width: 460px;
+  background-color: #31323c70;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+.id {
+  font-size: 14px;
+}
+
+.containerDescriptionStatus {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.changeStatusButton {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .containerCard {
+    width: 460px;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .description {
+    height: 300px;
+  }
+}

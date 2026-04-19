@@ -1,0 +1,16 @@
+.containerList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  gap: 20px;
+  
+}
+
+@media (min-width: 768px) {
+  .containerList {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

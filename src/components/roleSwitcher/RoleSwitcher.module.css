@@ -1,0 +1,26 @@
+.containerRoleSwitcher {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 5px;
+}
+
+.switchButton {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #3a3b4675;
+  color: white;
+  transition: 0.2s;
+}
+
+.switchButton:hover {
+  background-color: #4a4b58;
+}
+
+.active{
+    background-color: #4a4b58;
+}
